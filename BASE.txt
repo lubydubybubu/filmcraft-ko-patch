@@ -1,0 +1,4 @@
+upstream: https://github.com/storytold/filmcraft.git
+tag: v0.6.0
+commit: 2ff3f5e266838700c292a35aaf762e3d4dcef980
+patch: patches/filmcraft-v0.6.0-ko.patch

@@ -1,0 +1,16 @@
+ DEVELOPMENT.md                       |  106 +++++
+ KOREAN_SUPPORT.md                    |  145 +++++++
+ ROADMAP.md                           |    2 +-
+ apps/filmcraft/src/native_menu.rs    |    2 +
+ crates/engine/src/settings.rs        |    3 +-
+ crates/engine/src/settings_tests.rs  |    6 +
+ crates/ui-egui/src/cjk.rs            |  143 ++++++-
+ crates/ui-egui/src/i18n/es.tsv       |    1 +
+ crates/ui-egui/src/i18n/ko.tsv       | 3551 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ crates/ui-egui/src/i18n/mod.rs       |  166 +++++++-
+ crates/ui-egui/src/i18n/zh-cn.tsv    |    1 +
+ crates/ui-egui/src/lib.rs            |    9 +-
+ crates/ui-egui/src/menus.rs          |    8 +
+ docs/localization-parity.md          |   11 +-
+ tests/localization/test_korean_ui.py |  307 ++++++++++++++
+ 15 files changed, 4433 insertions(+), 28 deletions(-)
